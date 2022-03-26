@@ -72,6 +72,8 @@ body{
     --basic-color:#263238;
     --title-color:#000;
     --text-color:#8F95A5;
+    --white-color:#fff;
+    --card-bgc:#F5F5F5;
 }
 /* /global styles */
 
@@ -134,6 +136,216 @@ body{
     border: 2px var(--basic-color ) solid;
     border-radius: 5px;
 }
-
-
 /* MAIN SECTION */
+.main {
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+.text-cotent {
+    width: 632px;
+}
+/* .hero-title::after{
+    content: "";
+    position: absolute;
+    background-image: url(../photos/light-icon.png);
+    left: 0;
+
+} */
+.title-wrap{
+    display: flex;
+    position: relative;
+}
+.light-img{
+    top: 39px;
+    position: absolute;
+    right: 151px;
+    top: 130px;
+}
+.hero-title {
+    width: 368px;
+    height: 240px;
+    font-weight: 600;
+    font-size: 6.0rem;
+    line-height: 8rem;
+    position: relative;
+    color: var(--title-color);
+}
+.hero-text {
+    width: 632px;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: var(--text-color);
+    margin-bottom: 6rem;
+}
+.hero-btn:hover{
+    opacity: 0.8;
+}
+.hero-btn:active{
+    opacity: 0.6;
+}
+.hero-btn {
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    color: var(--white-color);
+    padding: 3.2rem 11.7rem;
+    border-radius: 1.5rem;
+    background-color: var(--basic-color);
+}
+/* skills */
+/* skill`s global styles */
+.card-btns:hover{
+    opacity: 0.8;
+}
+.card-btns:active{
+    opacity: 0.6;
+}
+.card-btns {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--white-color);
+    padding: 1.5rem 5.1rem;
+    border-radius: 5px;
+    background-color: var(--basic-color);
+
+}
+
+.card-title {  
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 8rem;
+    color: var(--basic-color);
+}
+.card-text {
+    width: 377px;
+    line-height: 2.4rem;
+    color: var(--text-color);
+    margin-bottom: 3rem;
+}
+
+/* skill`s global styles */
+
+.skils-top-title {
+    font-weight: 600;
+    font-size: 4.8rem;
+    line-height: 8rem;
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom:9.6rem;
+}
+
+.skills-card-list {
+    display: flex;
+    padding-bottom: 100px;
+}
+/* skills card 1*/
+.skills-card-1 {
+    background-color: var(--card-bgc);
+    width: 435px;
+    height: 894px;
+    padding: 3.5rem 2.2rem ;
+    border-radius: 1rem;
+    margin-right: 1.8rem;
+}
+.card-text-content {
+    margin-left: 2.3rem;
+}
+.card-title-1 {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 8rem;
+    color: var(--basic-color);
+}
+.card-text-1 {
+    width: 347px;
+    line-height: 2.4rem;
+    color: var(--text-color);
+    margin-bottom: 3.6rem;
+}
+.card-btn-1:hover{
+    opacity: 0.8;
+}
+.card-btn-1:active{
+    opacity: 0.6;
+}
+.card-btn-1 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--white-color);
+    padding: 1.7rem 6.4rem;
+    border-radius: 5px;
+    background-color: var(--basic-color);
+    
+}
+.card-right-list{
+    display: flex;
+    margin-bottom: 1.8rem;
+}
+/* skills card 2 */
+.skills-card-2 {
+    width: 434px;
+    height: 531px;
+    border-radius: 1rem;
+    background-color: var(--card-bgc);
+    position: relative;
+    padding: 0 2.2rem  3.5rem 2.2rem;
+    display: flex;
+    margin-right: 1.8rem;
+}
+.card-text-content-2{
+    position: absolute;
+    top: 240px;
+    left: 4rem;
+}
+.card-img-2 {
+    display: inline-block;
+    margin-left: auto;
+    justify-self: right;
+}
+
+
+
+/* skills card 3 */
+.skills-card-3 {
+    width: 434px;
+    height: 531px;
+    border-radius: 1rem;
+    background-color: var(--card-bgc);
+    position: relative;
+    padding: 0 2.2rem  3.5rem 2.2rem;
+    display: flex;
+}
+.card-text-content-3{
+    position: absolute;
+    top: 233px;
+    left: 4rem;
+}
+.card-img-3{
+    display: inline-block;
+    margin-right: auto;
+    justify-self: left;
+}
+/* skills card 4 */
+.skills-card-4 {
+    width: 885px;
+    height: 343px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--card-bgc);
+    border-radius: 1rem;
+}
+.card-text-content-4 {
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+
+.card-img-4 {
+    align-self: center;
+}
+
