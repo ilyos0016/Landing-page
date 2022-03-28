@@ -98,8 +98,14 @@ body{
     opacity: 0.6;
 }
 .header-logo {
-    display: flex;
+    /* display: flex; */
     text-decoration: none;
+    width: 104px;
+    height: 29px;
+}
+.header-logo svg {
+    width: 100%;
+    height: auto;
 }
 
 .nav-list {
@@ -142,14 +148,12 @@ body{
     border-radius: 5px;
 }
 /* MAIN SECTION */
-.main {
-}
+
 
 .hero {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
-
 }
 .text-cotent {
     width: 632px;
@@ -534,7 +538,13 @@ body{
 }
 .footer-logo-link {
     margin-right: auto;
+    width: 106px;
+    height: 54px;
 
+}
+.footer-logo-link svg{
+    width: 100%;
+    height: auto;
 }
 .footer-privacy-policy:not(:last-child){
     margin-right: 0.3rem;
