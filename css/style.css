@@ -76,6 +76,7 @@ body{
     --card-bgc:#F5F5F5;
     --payment-bg-color:#eee;
     --payment-text-color:#546269;
+    --hamburger-color:#39515E;
 }
 /* /global styles */
 
@@ -101,16 +102,19 @@ body{
     /* display: flex; */
     text-decoration: none;
     width: 104px;
-    height: 29px;
+    height: 29px; 
+   
 }
 .header-logo svg {
     width: 100%;
     height: auto;
+
 }
 
 .nav-list {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     list-style: none;
 }
 .nav-list-item:not(:last-child) {
@@ -147,6 +151,9 @@ body{
     border: 2px var(--basic-color ) solid;
     border-radius: 5px;
 }
+.hamburger{
+    display: none;
+}
 /* MAIN SECTION */
 
 
@@ -154,6 +161,10 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
+}
+.hero-right-img{
+    width: 661px;
+    height: 661px;
 }
 .text-cotent {
     width: 632px;
@@ -349,6 +360,15 @@ body{
 
 .card-img-4 {
     align-self: center;
+}
+.card-btn-4{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--white-color);
+    padding: 1.5rem 5.1rem;
+    border-radius: 5px;
+    background-color: var(--basic-color);
 }
 /* About us */
 .about-us {
